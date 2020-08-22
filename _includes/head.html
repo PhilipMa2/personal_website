@@ -1,0 +1,17 @@
+<head>
+  {% if page.title %}
+    <title>{{ page.title }} | Philip Ma</title>
+    <meta property="og:title" content="{{ page.title }} | Philip Ma">
+  {% else %}
+    <title>Philip Ma</title>
+    <meta property="og:title" content="Philip Ma">
+  {% endif %}
+  {% if page.description %}
+    <meta name="description" content="{{ page.description }}">
+    <meta property="og:description" content="{{ page.description }}">
+  {% else %}
+    <meta name="description" content="This is Philip Ma's personal site.">
+    <meta property="og:description" content="This is Philip Ma's personal site.">
+  {% endif %}
+  <meta charset="utf-8">
+</head>
