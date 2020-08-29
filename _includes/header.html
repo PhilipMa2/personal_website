@@ -1,1 +1,14 @@
-<h1>This is header</h1>
+<header class="header">
+  <div id="header-scroll" class="top-nav">
+    <nav>
+      <input type="checkbox" id="mobile-menu" class="mobile-menu-check">
+      <label for="mobile-menu" class="show-mobile-menu"></label>
+      <ul class="header-nav nav-links">
+        {% include nav-links.html %}
+      </ul>
+    </nav>
+    <a href="/" class="header-logo">
+      <img src="/images/logo.png" alt="Curious Astronaut">
+    </a>
+  </div>
+</header>
