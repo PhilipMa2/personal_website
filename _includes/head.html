@@ -13,7 +13,7 @@
     <meta name="description" content="This is Philip Ma's personal site.">
     <meta property="og:description" content="This is Philip Ma's personal site.">
   {% endif %}
-  <link rel="icon" href="/images/logo.png">
+  <link rel="icon" href="{{ site.baseurl }}/images/logo.png">
   <meta charset="utf-8">
   <script src="https://kit.fontawesome.com/31b8c360f1.js" crossorigin="anonymous"></script>
   <meta name="viewport" content="width=device-width,  initial-scale=1">
@@ -23,17 +23,17 @@
   <script src="https://kit.fontawesome.com/31b8c360f1.js" crossorigin="anonymous"></script>
 
   <!-- CSS -->
-  <link rel="stylesheet" href="/css/reset.css">
-  <link rel="stylesheet" href="/css/main.css">
+  <link rel="stylesheet" href="{{ site.baseurl }}/css/reset.css">
+  <link rel="stylesheet" href="{{ site.baseurl }}/css/main.css">
 
   <!-- JavaScript -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-  <script src="/js/scroll.js"></script>
+  <script src="{{ site.baseurl }}/js/scroll.js"></script>
   <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js">
   </script>
-  <script src="particles.js"></script>
-  <script src="/js/app.js"></script>
-  <script src="/js/down_arrow.js"></script>
+  <!-- <script src="/node_modules/particles.js"></script> -->
+  <script src="{{ site.baseurl }}/js/app.js"></script>
+  <script src="{{ site.baseurl }}/js/down_arrow.js"></script>
   <script>
     document.addEventListener("DOMContentLoaded", function() {
       scrollEffect();
