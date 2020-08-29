@@ -42,7 +42,8 @@ p {
   width: 10vh;
   transition: all .3s;
 }
-.header-logo:hover {
+.header-logo:hover,
+.header-logo:active {
   background-color: #0085AC;
   transition: all .3s;
 }
@@ -90,13 +91,16 @@ p {
   color: #fff;
   transition: all 0.25s ease-in-out;
 }
-#header-scroll.default a:hover {
+#header-scroll.default a:hover,
+#header-scroll.default a:active {
   color: #0085AC;
 }
-#header-scroll.small a:hover {
+#header-scroll.small a:hover,
+#header-scroll.small a:active {
   color: #0085AC;
 }
-.header-nav > li a:hover {
+.header-nav > li a:hover,
+.header-nav > li a:active {
   color: #0085AC;
   transition: all .3s;
 }
@@ -131,7 +135,8 @@ p {
   color: #ccc;
   transition: all .3s;
 }
-.footer-nav a:hover {
+.footer-nav a:hover,
+.footer-nav a:active {
   color: #0085AC;
   transition: all .3s;
 }
@@ -195,7 +200,8 @@ p {
   z-index: 5;
   transition: all .3s;
 }
-.scrollDown a span:hover {
+.scrollDown a span:hover,
+.scrollDown a span:active {
   opacity: 0.5;
   transition: all .3s;
 }
@@ -240,7 +246,8 @@ p {
   width: 1.5em;
   transition: all .3s;
 }
-.social-link:hover {
+.social-link:hover,
+.social-link:active {
   color: #0085AC;
   transition: all .3s;
 }
