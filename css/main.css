@@ -660,6 +660,9 @@ p {
   }
 
   /* PROJECT STYLES */
+  .project {
+    margin-top: 110px;
+  }
   .btn {
     margin-bottom: 10px;
   }
