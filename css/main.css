@@ -659,6 +659,11 @@ p {
     padding: 0;
   }
 
+  /* PROJECT STYLES */
+  .btn {
+    margin-bottom: 10px;
+  }
+
   /* GALLERY STYLES */
   .gallery {
     flex-direction: column;
